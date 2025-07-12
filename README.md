@@ -18,9 +18,9 @@
 [Traefik](https://github.com/traefik/traefik) (используется для выпуска сертификатов и проксирования через HTTPS админской панели 3X-UI) 
 
 Скачиваем скрипт, делаем файл исполняемым и запускаем установку:
-
-    curl -sSL https://raw.githubusercontent.com/Team418-git/easyXray/main/setup.sh -o setup.sh && chmod +x setup.sh && ./setup.sh
-
+```bash
+    curl -sSL https://raw.githubusercontent.com/heshgggg/easyXray/main/setup.sh -o setup.sh && chmod +x setup.sh && sudo ./setup.sh
+```
 Скрипт проверит наличие установленного Docker и спросит разрешение на установку из официального репозитория Docker если он ещё не установлен и далее запросит:
 
 Имя пользователя для панели администратора - **"Enter username for 3X-UI Panel"**
