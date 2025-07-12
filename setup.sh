@@ -100,13 +100,13 @@ function clone_repo() {
         # We're assuming that you want to fetch the newest content. 
         # So we'll remove the old files, fetch the new .zip and then unzip.
         rm -rf *
-        wget https://github.com/Team418-git/easyXray/archive/refs/heads/main.zip
+        wget https://github.com/heshgggg/easyXray/archive/refs/heads/main.zip
         unzip main.zip
         mv easyXray-main/* .
         rm -rf easyXray-main main.zip
 		echo -e "\e[34m easyXray repository has been cloned\e[0m"
     else
-        wget https://github.com/Team418-git/easyXray/archive/refs/heads/main.zip
+        wget https://github.com/heshgggg/easyXray/archive/refs/heads/main.zip
         unzip main.zip
         mkdir -p easyXray
         mv easyXray-main/* easyXray/
