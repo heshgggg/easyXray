@@ -13,7 +13,7 @@ magic-filter==1.0.11
 multidict==6.0.4
 pydantic==2.3.0
 pydantic_core==2.6.3
-pyxui==0.0.9
+pyxui==1.0.1
 requests==2.31.0
 shortuuid==1.0.11
 typing_extensions==4.7.1
