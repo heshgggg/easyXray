@@ -18,7 +18,6 @@ services:
       - "$PWD/db/:/etc/x-ui/"
     ports:
       - "2096:2096"
-      - "8080:8080"
       - "443:443"
     tty: true
     restart: unless-stopped
