@@ -1,6 +1,6 @@
 services:
   3x-ui:
-    image: ghcr.io/mhsanaei/3x-ui:v1.7.8
+    image: ghcr.io/mhsanaei/3x-ui:v2.3.7
     container_name: 3x-ui
     labels:
       - "traefik.enable=true"
