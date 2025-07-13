@@ -17,7 +17,6 @@ services:
       - "$PWD/cert/:/root/cert/"
       - "$PWD/db/:/etc/x-ui/"
     ports:
-      - "443:2053"
       - "443:443"
     tty: true
     restart: unless-stopped
