@@ -47,11 +47,7 @@ INSERT INTO "inbounds" VALUES (1,1,0,0,0,'',1,0,'',443,'vless','{
     }
   ],
   "decryption": "none",
-  "fallbacks": [
-      {
-          "dest": 2053
-      }
-  ]
+  "fallbacks": []
 }','{
   "network": "tcp",
   "security": "reality",
